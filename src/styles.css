@@ -1,0 +1,117 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  #footerRes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #text-footer {
+    font-size: 5px;
+  }
+  span {
+    text-decoration: none;
+  }
+  footer{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  #footerRes-partner {
+    padding: 0 !important;
+    flex-direction: column;
+    grid-template-columns: repeat(4, minmax(0, 1fr))!important;
+  }
+  #footerRes-partner img {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+
+  }
+  #footerRes-Div {
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important;
+  }
+  #footerRes-Tix{
+    justify-content: space-between !important;
+  }
+  #footerRes-a{
+    float: right;
+    /* align-items:flex-end  */
+  }
+  #footerRes-div-a{
+    line-height: -1 !important;
+    
+  }
+  #img-carousel{
+    height: 300px !important;
+    margin-top: 74px !important;
+    background-size: contain !important;
+  }
+  .content-style{
+    width: 100% !important;
+  }
+  .MultipleRowSlick_active_Film__1DGQ_,.MultipleRowSlick_none_active_Film__2dyrW {
+    font-size:12px !important;
+    width: 50% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin: 30px 0 !important
+  }
+  .phimDangChieu{
+    padding-bottom: 0 !important;
+  }
+  .phimDangChieu h3{
+    font-size: 13px;
+  }
+  .phimDangChieu span,p{
+    font-size: 10px;
+  }
+  .btnHover{
+    background-color: rgb(251, 66, 38)!important;
+    color:white !important;
+    padding: 5px !important;
+    opacity: 1 !important;
+    bottom: -14px !important;
+  }
+
+  .bgIMG{
+    height: 50px !important;
+  }
+
+  #cumrap .ant-tabs{
+    width: 100% !important;
+  }
+  #cumrap img{
+    width: 30px !important;
+    height: 30px !important;
+    
+  }
+  .ant-tabs-tab {
+    font-size: 10px !important
+  }
+  .ant-tabs-left>.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab{
+    margin-top: 5px !important
+  }
+  .ant-tabs-left>.ant-tabs-nav .ant-tabs-tab{
+    padding: 4px !important;
+  }
+  .ant-tabs-left>.ant-tabs-content-holder>.ant-tabs-content>.ant-tabs-tabpane{
+    padding-left: 0 !important;
+  }
+}
+@media screen and (min-width: 280px){
+  .container{
+    width: 100% !important;
+  }
+}
